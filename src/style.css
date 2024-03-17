@@ -1,0 +1,350 @@
+* {
+  box-sizing: border-box;
+}
+
+/*Voy a empezar por decir que esto sí que me dolió perderlo, porque ya tenia una estructura hecha y un montón de cosas avanzadas, que como dije antes, no me gustaban mucho, pero al menos estaban y podía ya jugar con ellos; no lo sé, "se borró por algo" es algo que escuché múltiples veces, pero en el momento sólo estaba como <i>Diosito ya no quiero ser tu mejor guerrero, quiero ser tu roomie</i>. Igual, tuve que aprenderme entonces mejor los códigos, como en CodePen no completa los comandos automáticamente, también tuve que aprendérmelos y saber bien sus funciones, para no estar devolviédome al StackBlitz a revisar si mis códigos estaban bien, no era efectivo, así que era mejor aprender, y una vez que lo logré, el trabajo sólo fluye y la toma de decisiones empieza.*/
+
+h1 {
+  font-weight: bold;
+  font-size: 2.5rem;
+  font-family: "Barriecito";
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  text-align: center;
+  color: #cece47;
+}
+
+/*En mi anterior intento hice un Splash negro que hacía alución al preconsciente y además tenía una clara invitación a entrar a ver la página, pero en esta versión no lo puse, y siento que no hacefalta, realmente esta tiene un diseñomuy distinto a mis intentos anteriores, siento que es mucho más pop. De pronto tiene que ver con mi estado de ánimo; y qué loco, porque no lo había visto así hasta ahora, pero sí; tiene colores mucho más vibrantes, contraste, movimiento y mucha más vida que las otras. Hasta es interactiva. */
+
+.ml3 {
+  font-weight: 900;
+  font-size: 3.5em;
+}
+
+.espacio {
+  padding: 12px;
+}
+.espaciodos {
+  padding: 7px;
+}
+
+body {
+  margin: 0%;
+  font-family: system-ui, sans-serif;
+  color: #ebedc2;
+  background-color: #b90d5a;
+  /*font-family: "Playfair Display", serif;*/
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-size: 1.5rem
+}
+
+/* El cuerpo de la página fue muy complicado de lograr que se organizara bien, de hecho en un moento pensé en hacer entrar cada línea de tecto por el lado contrario, hasta que llegara a su puesto, así una por una, pero me pareció ya demasiado; lo intenté, pero además me descuadró todo y lograr ubicarlo como lo tengo ahora fue de verdad bien complicado al inicio. Hacer la divión por columnas no tanto, pero que funcionaran es otra cosa, lograr que tuvieran el margen correcto, que ocuparan un buen espacio, que tuvieran un buen interlineado... Probé varias estéticas diferentes: en mi cabeza, mi primera idea era tipo una conversación, como si fuera más o menos una carta o pues que pareciera un diálogo entre dos partes de mi mente que iban a ser el lado racional y el lado impulsivo e intrusiva, pero era muy aburrda, porque era letra serifada y la gráfica que estaba pensando no existía y además no hubiera funcionado, o sea no, no era una buena idea para una página web, de pronto para una muestra de corresponcias en un museo, pero aquí no. */
+
+main {
+  padding: 0rem;
+}
+
+.subtitulo {
+  text-align: center;
+  /*padding: 10px;
+  margin: auto;
+  width: 80%;
+  background-color: #cece47;
+  border-radius: 8px;
+  color: #004b6a;*/
+}
+
+.subtitulodos {
+  text-align: center;
+  padding: 10px;
+  margin: auto;
+  width: 25%;
+  background-color: #cece47;
+  border-radius: 15px;
+  color: #004b6a;
+}
+
+.izq {
+  text-align: right;
+  margin-right: 12%;
+  /*padding: 8px;
+  margin: 25px;
+  width: 60%;
+  margin-left: auto;
+  
+  background-color: #8d9e94;
+  border-radius: 6px;
+  color: #004b6a;*/
+  
+}
+.der {
+  text-align: left;
+  margin-left: 10%;
+  /*padding: 8px;
+  margin: 25px;
+  width: 60%;
+  margin-right: auto;
+  
+  
+  background-color: #c29648;
+  border-radius: 6px;
+  color: #004b6a;*/
+}
+
+/* Por otro lado, mi segundo intento quedó horrible, tenía colores que me gustan, pero hasta ahí, como dije  que la estética debería ser tipo mi mente, el fondo era oscuro y eso no era una mala idea, pero entonces el texto se volvía un poco más complicado leer y tocaba poner una fuente más grande y clara, pero se veía raro, entonces para solucionar eso, coloqué cajitas para cada punto del decálogo, los del lado derecho tenían un color, y los del izquiero otro, pero si las cajas eran muy redondas se veía "muy ochentero", y si eran cuadradas, se veía básico y como si fueran un errore, o simple pereza de hacer algo porque sí, y finalmente con un poquito de radio para redondear las esquinas, a mí no me gustaba; mejor dicho, no. Se veía fatal. Todo en conjunto se veía terrible, los 4 colores se veían súper fuera de lugar y no había armonía, no, no y no. */
+
+.linea {
+  padding: 6px;
+  margin: auto;
+  width: 70%;
+  background-color: #cece47;
+  border-radius: 17px;
+}
+
+/* Esta línea fue un error, y lo admito, pero me gustó tanto como se veía que dije "sí", y la ajusté mejor y la dejé. Es meramente estética y le da un toque. Creo que fue desde esta línea que mi cerebro logró conectar cables y neuronas y se dio cuenta de que los componentes de una página web son mucho más que el texto, y suena como algo obvio, pero pues <i>"el sentido común es el menos común de los sentidos"</i>. */
+
+.flexbox-container {
+	display: -ms-flex;
+	display: -webkit-flex;
+	display: flex;
+}
+
+.imagen {
+    width: 10%;
+    margin-left: 7%;
+}
+
+.cuerpo {
+    width: 90%;
+    margin: auto;
+}
+
+/* Amo esta imagen, expliqué qué significa para mi en el HTML, pero voy a hablar de que yo hubiera querído un <b>hilo conductor</b> que atravesara todos los textos, pero parecía algo complicado de hacer, y además de pronto afectaba la lagibilidad, y hubiera tocado hacerlo gráficamente; mientras que ponerlo al lado como lo hice, fue difícil lograr ubicar las dos columnas de texto por sí solas, y ahora tenía que meter una imagen a un lado de los textos, y tuve que reajustar todos los <br> y los espacios y las palabras resaltadas de las líneas para que tuviera sentido visuoespacialmente. */
+
+.flex-boxcontainerdos {
+	display: -ms-flex;
+	display: -webkit-flex;
+	display: flex;
+}
+.borde {
+  height: 100px;
+  background-color: #2A2927;
+  
+/* Este lo hice basándome en lo que veo en muchas páginas en donde hay información de contacto, y me pareció que se veía chévere, como <i>"profesional"</i> jajaja :D */
+  
+}
+/*.footer {
+  font-size: 12px;
+  text-align: center;
+  padding: 40px;
+  width: 40%;
+}*/
+
+.columna1 {
+  width:30%;
+  float:left;
+  padding-top: 30px;
+  padding-left: 40px;
+}
+.columna2 {
+  width:40%;
+  float:left;
+  font-size: 12px;
+  padding-top: 40px;
+  text-align: center;
+  color: #ffffff !important;
+}
+.columna3 {
+  width:30%;
+  float:left;
+  padding-top: 30px;
+  padding-right: 80px;
+}
+
+
+@media (max-width: 500px) {
+  
+  .columna {
+    width:auto;
+    float:none;
+  }
+  
+}
+
+/* Esta parte de las columnas fue bien difícil porque cuadrarlas me costó un montón, lo hice de un modo diferente a como hice las columnas de texto de arriba, y para el footer quise poner otras imágenes de hilos pero un poco más desenredados, con el fin de un poco hacer ver que resuelvo jajaja, que desenlazo. */
+
+.page{
+    background: url(img/image.jpg) center;
+    background-size: contain; 
+    display: flex;          
+    justify-content: right;
+    align-items: center;
+}
+.fondo_transparente{
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.226);
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    display: none;    
+}
+.modal{
+    background: #ebedc2;
+    width: 490px;
+    height: 620px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 3px;
+}
+.modal_cerrar{
+    background: #cece47;
+    position: absolute;
+    right: 0px;
+    color: #b90d5a;
+    top: 0px;
+    width: 30px;
+    height: 30px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    z-index: 1;
+}
+.modal_titulo{
+    color: #b90d5a;
+    font-size: 60px;
+    font-family: "Barriecito";
+    text-align: center;
+}
+.modal_mensaje{            
+   padding: 10px 30px;
+   text-align: center;
+   align-content: center;
+   color: #b90d5a;
+   top: 50%;
+   left: 40%;
+   transform: translate(-50%, -50%);
+   position: absolute;
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+   border-radius: 3px;
+}
+.modal_botones{      
+   width: 100%;    
+   background: whitesmoke;
+   border-top:whitesmoke 1px;
+   padding-top: 20px;
+   display: flex;
+   justify-content: space-evenly;
+}
+.boton {
+  color: #b90d5a;
+  background: #cece47;
+  
+}
+.boton:hover{
+    background: white;
+    color: #b90d5a; 
+    margin-right; 0%;
+}
+
+
+.pagedos{
+    background: url(img/image.jpg) center;
+    background-size: contain; 
+    display: flex;          
+    justify-content: right;
+    align-items: center;
+}
+.fondo_transparentedos{
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.226);
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    display: none;    
+}
+.modaldos{
+    background: #ebedc2;
+    width: 490px;
+    height: 620px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 3px;
+}
+.modal_cerrardos{
+    background: #cece47;
+    position: absolute;
+    right: -4px;
+    color: #b90d5a;
+    top: 1px;
+    width: 30px;
+    height: 30px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    z-index: 1;
+}
+.modal_titulodos{
+    color: #b90d5a;
+    font-size: 60px;
+    font-family: "Barriecito";
+    text-align: center;
+}
+.modal_mensajedos{            
+   padding: 10px 30px;
+   text-align: center;
+   align-content: center;
+   color: #b90d5a;
+   top: 50%;
+   left: 40%;
+   transform: translate(-50%, -50%);
+   position: absolute;
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+   border-radius: 3px;
+}
+.modal_botonesdos{      
+   width: 100%;    
+   background: whitesmoke;
+   border-top:whitesmoke 1px;
+   padding-top: 20px;
+   display: flex;
+   justify-content: space-evenly;
+}
+
+/* Los modales fueron idea de mi mamá. No encontramos otro espacio para poner fotos, pero me parecieron un muy buen recurso para darle más movimiento al texto, y además el hecho de que preciamente surja del texto se me hace muy divertido. */
+
+.botondos {
+  color: #b90d5a;
+  background: #cece47;
+  
+}
+.botondos:hover{
+    background: white;
+    color: #b90d5a; 
+    margin-right; 0%;
+}
+
+/* Los hovers me gustan mucho, me gusta que cambien de color, pero es porque es algo que he vsito desde chiquita y sólo me hace muy feliz ver cositas que interactúan con el usuario. Puede que sólo sea que cambie de color :D. */
